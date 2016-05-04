@@ -11,4 +11,8 @@ class ArtistsController < ApplicationController
   def show
   	@artist = RSpotify::Artist.find(params[:id])
   end
+
+  def create
+    @item = Playlist.create(item_params)
+  end
 end
