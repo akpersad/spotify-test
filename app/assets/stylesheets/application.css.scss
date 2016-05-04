@@ -24,14 +24,20 @@ body {
   padding-bottom: 30px;
 }
 
-.theme-dropdown .dropdown-menu {
-  position: static;
-  display: block;
-  margin-bottom: 20px;
+ul#artists {
+	list-style-type: none;
+	width: 50%;
+	padding-left: 0px;
 }
 
-.theme-showcase > p > .btn {
-  margin: 5px 0;
+.artist {
+	font-size: 18px;
+	background-color: #313131;
+	color: #1ED760;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	margin-bottom: 1px
 }
 
 ul.nav_bar {
@@ -61,5 +67,10 @@ li.nav_bar a:hover {
 }
 
 #active {
-    background-color: #4CAF50;
+    background-color: #1ED760;
+}
+
+.title {
+	position: relative;
+	left: 30%;
 }
