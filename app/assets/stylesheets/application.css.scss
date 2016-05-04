@@ -21,7 +21,6 @@
 @import "bootstrap";
 /* Some Style from the Bootstrap Default Theme */
 body {
-  padding-top: 70px;
   padding-bottom: 30px;
 }
 
@@ -33,4 +32,34 @@ body {
 
 .theme-showcase > p > .btn {
   margin: 5px 0;
+}
+
+ul.nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.nav_bar {
+    float: left;
+    border-left: 1px solid #bbb;
+}
+
+li.nav_bar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.nav_bar a:hover {
+    background-color: #111;
+}
+
+#active {
+    background-color: #4CAF50;
 }
